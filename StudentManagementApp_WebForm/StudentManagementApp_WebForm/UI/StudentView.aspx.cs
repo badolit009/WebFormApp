@@ -44,8 +44,10 @@ namespace StudentManagementApp_WebForm.UI
 
         protected void showButton_OnClick(object sender, EventArgs e)
         {
+            regNoDropDownList.Items.Clear();
+            regNoDropDownList.SelectedValue = null;
             GetAllStudent();
-           
+            ShowStudent();
 
         }
 

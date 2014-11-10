@@ -9,25 +9,21 @@ using StudentManagementApp_WebForm.Models;
 
 namespace StudentManagementApp_WebForm.DAL
 {
-    public class StudentGateway:Gateway
+    public class StudentGateway : Gateway
     {
 
-        public StudentGateway():base("StudentConnectionString")
+        public StudentGateway()
+            : base("StudentConnectionString")
         {
 
-          
         }
-
         public Student GetStudentByRegNo(string regNo)
         {
             Student student = null;
             var query = "SELECT * FROM t_student WHERE RegNo = '" + regNo + "'";
-
             Command.CommandText = query;
-            
             Connection.Open();
             SqlDataReader rdr = Command.ExecuteReader();
-
             while (rdr.Read())
             {
                 student = new Student();
@@ -48,11 +44,9 @@ namespace StudentManagementApp_WebForm.DAL
                         "')";
 
             Command.CommandText = query;
-
             Connection.Open();
             int rowAffected = Command.ExecuteNonQuery();
             Connection.Close();
-
             return rowAffected;
         }
 
@@ -60,7 +54,7 @@ namespace StudentManagementApp_WebForm.DAL
         {
             List<Student> students = new List<Student>();
 
-            var query = "SELECT * FROM t_student WHERE DepartmentId='"+department+"'";
+            var query = "SELECT * FROM t_student WHERE DepartmentId='" + department + "'";
 
             Command.CommandText = query;
 

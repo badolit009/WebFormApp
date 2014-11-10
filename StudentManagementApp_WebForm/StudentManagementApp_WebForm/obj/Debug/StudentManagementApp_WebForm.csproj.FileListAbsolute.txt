@@ -16,3 +16,9 @@ C:\Users\Badol Hossain\Desktop\StudentManage\StudentManagementApp_WebForm\Studen
 C:\Users\Badol Hossain\Desktop\StudentManage\StudentManagementApp_WebForm\StudentManagementApp_WebForm\obj\Debug\StudentManagementApp_WebForm.csprojResolveAssemblyReference.cache
 C:\Users\Badol Hossain\Desktop\StudentManage\StudentManagementApp_WebForm\StudentManagementApp_WebForm\obj\Debug\StudentManagementApp_WebForm.dll
 C:\Users\Badol Hossain\Desktop\StudentManage\StudentManagementApp_WebForm\StudentManagementApp_WebForm\obj\Debug\StudentManagementApp_WebForm.pdb
+C:\Users\Badol Hossain\Desktop\GitUpload\WebFormApp\StudentManagementApp_WebForm\StudentManagementApp_WebForm\bin\StudentManagementApp_WebForm.dll.config
+C:\Users\Badol Hossain\Desktop\GitUpload\WebFormApp\StudentManagementApp_WebForm\StudentManagementApp_WebForm\bin\StudentManagementApp_WebForm.dll
+C:\Users\Badol Hossain\Desktop\GitUpload\WebFormApp\StudentManagementApp_WebForm\StudentManagementApp_WebForm\bin\StudentManagementApp_WebForm.pdb
+C:\Users\Badol Hossain\Desktop\GitUpload\WebFormApp\StudentManagementApp_WebForm\StudentManagementApp_WebForm\obj\Debug\StudentManagementApp_WebForm.csprojResolveAssemblyReference.cache
+C:\Users\Badol Hossain\Desktop\GitUpload\WebFormApp\StudentManagementApp_WebForm\StudentManagementApp_WebForm\obj\Debug\StudentManagementApp_WebForm.dll
+C:\Users\Badol Hossain\Desktop\GitUpload\WebFormApp\StudentManagementApp_WebForm\StudentManagementApp_WebForm\obj\Debug\StudentManagementApp_WebForm.pdb

@@ -8,29 +8,25 @@ using StudentManagementApp_WebForm.Models;
 
 namespace StudentManagementApp_WebForm.DAL
 {
-    public class DepartmentGateway:Gateway
+    public class DepartmentGateway : Gateway
     {
         public DepartmentGateway()
             : base("StudentConnectionString")
         {
         }
-
-
         public string Insert(Department department)
         {
-            
-            string query = string.Format("INSERT INTO t_Department VALUES('{0}','{1}')",department.Code,department.Name);
+            string query = string.Format("INSERT INTO t_Department VALUES('{0}','{1}')", department.Code, department.Name);
             Command.CommandText = query;
             Connection.Open();
             int affactedRow = Command.ExecuteNonQuery();
             Connection.Close();
-            
+
             if (affactedRow > 0)
             {
                 return "Insetrt Success";
             }
             return "Somethig Wrong";
-
         }
 
         public bool ThisCodeExits(string code)
@@ -55,7 +51,7 @@ namespace StudentManagementApp_WebForm.DAL
             while (aReader.Read())
             {
                 Department aDepartment = new Department();
-                aDepartment.Id = (int) aReader[0];
+                aDepartment.Id = (int)aReader[0];
                 aDepartment.Code = aReader[1].ToString();
                 aDepartment.Name = aReader[2].ToString();
                 aDepartments.Add(aDepartment);

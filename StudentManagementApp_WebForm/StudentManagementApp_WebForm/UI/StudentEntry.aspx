@@ -8,53 +8,50 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    <table>
-        <tr>
-                <td>
-                    Department 
-                </td>
-                <td>
-                    <asp:DropDownList runat="server" ID="DepartmentDownList" />
-                </td>
+        <div>
+            <table>
+                <tr>
+                    <td>Department 
+                    </td>
+                    <td>
+                        <asp:DropDownList runat="server" ID="DepartmentDownList" />
+                    </td>
 
-            </tr>
-        <tr>
-            <td>
-                Reg No.
-            </td>
-            <td>
-                <asp:TextBox runat="server" ID="txtRegNo" ></asp:TextBox>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Name
-            </td>
-            <td>
-                <asp:TextBox runat="server" ID="txtName" ></asp:TextBox>
-            </td>
-        </tr>
-         <tr>
-            <td>
-                Email
-            </td>
-            <td>
-                <asp:TextBox runat="server" ID="txtEmail" ></asp:TextBox>
-            </td>
-        </tr>
-        
-        <tr>
-            <td> <asp:Button runat="server" ID="btnSave" OnClick="btnSave_OnClick" Text="Insert"/></td>
-        </tr>
-        
-        <tr>
-            <td align="center">
-                <asp:Label runat="server" ID="msgLabel" Text=""></asp:Label>
-            </td>
-        </tr>
-    </table>
-    </div>
+                </tr>
+                <tr>
+                    <td>Reg No.
+                    </td>
+                    <td>
+                        <asp:TextBox runat="server" ID="txtRegNo"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Name
+                    </td>
+                    <td>
+                        <asp:TextBox runat="server" ID="txtName"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email
+                    </td>
+                    <td>
+                        <asp:TextBox runat="server" ID="txtEmail"></asp:TextBox>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <asp:Button runat="server" ID="btnSave" OnClick="btnSave_OnClick" Text="Insert" /></td>
+                </tr>
+
+                <tr>
+                    <td align="center">
+                        <asp:Label runat="server" ID="msgLabel" Text=""></asp:Label>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </form>
 </body>
 </html>
